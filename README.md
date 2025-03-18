@@ -1,5 +1,8 @@
 # Cups IPP
 
+> [!NOTE]
+> This is a fork of `smalot/cups-ipp` which is used to provide CUPS printing funtionality to Sparkle. The [original package](https://github.com/smalot/cups-ipp) appears to have not been updated in a long time (most recent release was in 2020) and currently is *not* compatible with PHP >=8.1. Initial attempts to use the package while updating Sparkle to PHP 8 required the use of a composer patch. Forking here allows for the package to be updated for compatability purposes as necessary.
+
 CUPS Implementation of IPP - PHP Client API
 
 CUPS (Common Unix Printing System) is a modular printing system for Unix-like computer operating systems which allows a computer to act as a print server. A computer running CUPS is a host that can accept print jobs from client computers, process them, and send them to the appropriate printer.
